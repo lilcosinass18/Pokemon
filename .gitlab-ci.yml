@@ -1,0 +1,16 @@
+image: golang:latest
+
+stages:
+  - test
+
+unit_tests:
+  stage: test
+  script:
+    - apt update
+    - apt install postgresql postgresql-contrib sudo -y
+    - sudo service postgresql start
+    - sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
+    - go mod tidy
+    - go test ./...
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /^homework/

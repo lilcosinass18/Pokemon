@@ -1,0 +1,39 @@
+- task:     echo
+  start:    21-02-2023 19:00
+  deadline: 28-02-2023 23:59
+  score: 1
+
+- task:     duplicates
+  start:    01-03-2023 19:00
+  deadline: 09-03-2023 23:59
+  score: 1
+
+- task:     request-cacher
+  start:    09-03-2023 19:00
+  deadline: 16-03-2023 23:59
+  score: 1
+
+- task:     pokemon-api-client
+  start:    15-03-2023 19:00
+  deadline: 22-03-2023 23:59
+  score: 1
+
+- task:     retryable-http
+  start:    27-03-2023 00:01
+  deadline: 03-04-2023 23:59
+  score: 1
+
+- task:     mocking
+  start:    17-04-2023 00:01
+  deadline: 24-04-2023 23:59
+  score: 1
+
+- task:     pokemon-async-client
+  start:    02-05-2023 00:01
+  deadline: 09-05-2023 23:59
+  score: 1
+
+- task:     pokemon-rest-api
+  start:    10-05-2023 00:01
+  deadline: 17-05-2023 23:59
+  score: 1
